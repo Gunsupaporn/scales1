@@ -1,5 +1,24 @@
 # scales1
 ## คู่มือการทำงานของตาชั่ง
+##
+1. New project ขึ้นมา 2 ตัว 
+- ตัวที่ 1 สร้างขึ้นเพื่อเป็นการเก็บค่าน้ำหนักที่ได้ ของแต่ละค่า เพื่อมาคำนวณเป็นกิโลกรัมใน
+ Project ตัวที่ 2
+ ##
+ ![cal13](https://user-images.githubusercontent.com/117147894/200729304-f121fc83-e9e5-4f6c-abc4-4a2a78a73421.jpg)
+ ##
+ - ตัวที่ 2 สร้างขึ้นเพื่อเป็นการรับค่าที่ได้จาก Project ตัวที่ 1 แล้วนำค่าที่ได้นั้นมาแปลงเป็นกิโลกรัม
+ ##
+ ![cal14](https://user-images.githubusercontent.com/117147894/200729454-377d74cb-40ba-4898-921f-357276015808.jpg)
+ ##
+ * หรือสามารถดาวน์โหลดโปรเจคได้ที่ไฟล์ด้านบนได้เลย
+ ##
+ 2. ทำการInstall Libraly ของ HX711 ซึ่งเป็นSensor ที่ใช่รับแรงกด โดยเลือกใช้ Libraly ที่ชื่อว่า HX711 Arduino Libraly
+ ##
+ ![cal15](https://user-images.githubusercontent.com/117147894/200729651-2f5d83b9-b5c5-4704-adaa-fe75d05e2372.jpg)
+
+
+
 Newproject และเขียนโค้ด โดยนำค่าตัว real_weight ให้เป็นค่าน้ำหนักของจริงของ load ที่จะใช้นำมา Calibrate (หน่วยเป็น กิโลกรัม)
 ##
 ![Image](https://user-images.githubusercontent.com/117147894/200517549-8a9d574e-2d03-4a80-b64f-34b5dc174880.jpg)
